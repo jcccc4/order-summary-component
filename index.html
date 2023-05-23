@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="bg-pale-blue">
+    <img
+      src="./images/pattern-background-mobile.svg"
+      alt="Background Pattern"
+      class="w-screen h-auto absolute top-0 left-0 -z-10 md:hidden"
+    />
+    <img
+    src="./images/pattern-background-desktop.svg"
+    alt="Background Pattern"
+    class="w-screen h-auto absolute top-0 left-0 -z-10 md:block"
+  />
+    <div
+      class="relative z-0 mt-[71px] h-card w-card mx-auto rounded-[20px] bg-white md:w-card-md md:h-card-md"
+    >
+      <img
+        src="./images/illustration-hero.svg"
+        alt="Logo"
+        class="rounded-t-[20px] h-[160px] w-full md:h-[220px]"
+      />
+      <div class="mt-8 mx-6 md:mt-[45px] md:mx-12">
+        <div class="text-center text-dark-blue text-title font-bold md:text-title-md">Order Summary</div>
+        <div
+          class="mt-4 text-center text-description text-desaturated-blue font-medium md:mt-[17px] md:text-description-md"
+        >
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </div>
+        <div
+          class="bg-very-pale-blue mt-6 p-4 rounded-[11px] h-[81px] flex items-center md:mt-5 md:h-[98px]"
+        >
+          <img src="./images/icon-music.svg" alt="Music Icon" />
+          <div class="ml-5 text-plan md:text-plan-md">
+            <div class="font-bold">Annual Plan</div>
+            <div class="text-desaturated-blue">$59.99/year</div>
+          </div>
+
+          <div
+            class="text-link text-bright-blue underline ml-[50px] font-black md:text-plan-md md:ml-[94px]  hover:text-hover hover:no-underline"
+          >
+            Change
+          </div>
+        </div>
+        <div class="font-black text-button flex flex-col justify-between gap-6 mt-6 md:mt-8 md:gap-8">
+          <button class="bg-bright-blue text-white w-full h-[50px] rounded-[11px] hover:bg-hover">
+            Proceed to Payment
+          </button>
+          <button class="w-full text-desaturated-blue hover:text-dark-blue">Cancel Order</button>
+        </div>
+      </div>
+    </div>
+    <div class="text-xs text-center absolute bottom-0">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-bright-blue"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="#" class="text-bright-blue">John Carlo Sacramento</a>.
+    </div>
+  </body>
+</html>
